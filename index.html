@@ -6,15 +6,20 @@
         
         <style>
             
+            body {
+                margin: 0;
+            }
+            
             * {
                 font-family: "DejaVu Sans Mono", monospace;
             }
             
-            h1 {
-                text-align: center;
-                background: rgb(217, 56, 49);
+            #maintitle {
+                background: rgb(217, 56, 43);
                 color: rgb(255, 255, 255);
-                padding: 10px;
+                width: 100%;
+                text-align: center;
+                padding: 5px;
                 
             }
             
@@ -22,6 +27,7 @@
                 height: 114px;
                 background: rgb(255, 255, 255);
                 overflow: auto;
+                text-align: center;
             }
             
             #header {
@@ -30,23 +36,36 @@
                 width: 384px;
             }
             
+            #quoteList {
+                list-style-type: disc;
+                text-align: left;
+            }
+            
+            
+            
         </style>
     </head>
     <body>
     
-    <h1>Marvel Multiverse</h1>
+    <div id="maintitle">
+    <h1>The *Complete* Marvel Timeline</h1>
+    <p>(Currently under construction)</p>
+    </div>
     
     
     <ol>
         <li>
-            <h3>Captain America: The First Avenger</h3>
+            <!--Blurb up top-->
+            <h3>Captain America: The First                                Avenger</h3>
             <div id="blurb">
             <p> Release Date : July 19, 2011
+            <br>Primarily Takes Place In : 1940-1945
             <br>Runtime : 2h 4m
             <br>Rating : PG-13
             <br>Watch Count : 4
             <br>
             
+            <!--The main cast-->
             <br>Main Cast :<br>
             <br><b>Steve Rogers</b> Chris Evans
             <br><b>Peggy Carter</b> Hayley Atwell
@@ -54,16 +73,18 @@
             <br><b>Howard Stark</b> Dominic Cooper
             <br><b>Red Skull</b> Hugo Weaving
             
+            <!--cameos-->
             <br><br>Notable Cameos :
             
             <br><br><b>Stan Lee</b> - Stan Lee
             <br><b>Nick Fury</b> - Samuel Jackson
             
+            <!--Quotes-->
             <br><br>Quotes ~
-            <ul>
+            <ul id="quoteList">
                 <li>"I don't like bullies. I don't care where they're from."<br>- Steve Rogers</li>
                 
-                <li>"I can do this all day."<br>- Steve Rogers </li>
+                <li>"I can do this all day."<br>- Steve Rogers                 </li>
                 
                 <li>"You have no idea how to talk to a woman, do you?" <br>- Peggy Carter</li>
                 
@@ -75,13 +96,16 @@
         </li>
         
         <li>
+            <!--Blurb up top-->
             <h3>Captain Marvel</h3>
             <div id="blurb">
             <p> Release Date : March 8, 2019
+            <br>Primarily Takes Place In : 1995
             <br>Runtime : 2h 4m
             <br>Rating : PG-13
             <br>Watch Count : 3
             
+            <!--The main cats…I mean cast-->
             <br><br>Main Cast :
             <br><br><b>Carol Danvers</b> Brie Larson
             <br><b>Nick Fury</b> Samuel Jackson
@@ -90,12 +114,14 @@
             <br><b>Talos</b> Ben Mendelsohn
             <br><b>Goose the Cat</b> Reggie, Rizzo, Gonzo, and Archie
             
+            <!--Cameos next-->
             <br><br>Notable Cameos :
             <br><br><b>Stan Lee</b> Stan Lee
             <br><br>
             
+            <!--List of quotes-->
             Quotes ~
-            <br><ul>
+            <br><ul id="quoteList">
             
                 <li>"Higher, further, faster, baby!"<br>- Carol Danvers and Maria Rambeau</li>
                 
@@ -109,15 +135,10 @@
                 
             </ul>
             
+        <!--Add in Iron Man next-->
                 
             </p>
         </div></li>
-        
-    </ol>
-
-    </body>
-</html>
-
         
     </ol>
 
