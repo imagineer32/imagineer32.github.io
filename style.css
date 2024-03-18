@@ -1,0 +1,46 @@
+            * {
+                font-family: "DejaVu Sans Mono", monospace;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            #maintitle {
+                background: rgb(217, 56, 43);
+                color: rgb(255, 255, 255);
+                width: 100%;
+                text-align: center;
+                padding: 5px;
+                
+            }
+            
+            #blurb {
+                height: 114px;
+                background: rgb(255, 255, 255);
+                overflow: auto;
+                text-align: center;
+            }
+            
+            #header {
+                color: rgb(15, 44, 100);
+                border: 0px;
+                width: 384px;
+            }
+            
+            #quoteList {
+                list-style-type: disc;
+                text-align: left;
+            }
+            
+            #cover {
+                height:150px;
+                float: right;
+                margin-right: 10px;
+                margin-left:10px;
+            }
+            
+            #timeline {
+                margin-right: 0px;
+                margin-left: 10px;
+            }
