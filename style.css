@@ -16,16 +16,10 @@
             }
             
             #blurb {
-                height: 114px;
+                height: 153px;
                 background: rgb(255, 255, 255);
                 overflow: auto;
                 text-align: center;
-            }
-            
-            #header {
-                color: rgb(15, 44, 100);
-                border: 0px;
-                width: 384px;
             }
             
             #quoteList {
@@ -34,9 +28,8 @@
             }
             
             #cover {
-                height:150px;
+                height:200px;
                 float: right;
-                margin-right: 10px;
                 margin-left:10px;
             }
             
@@ -44,3 +37,8 @@
                 margin-right: 0px;
                 margin-left: 10px;
             }
+            
+        #mainList {
+            margin-left:10px;
+            margin-right:10px;
+        }
