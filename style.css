@@ -15,22 +15,23 @@
                 
             }
             
-            #blurb {
-                height: 153px;
+            .blurb {
+                height: 150px;
                 background: rgb(255, 255, 255);
                 overflow: auto;
-                text-align: center;
+                margin-left: 25px;
             }
             
-            #quoteList {
+            .quoteList {
                 list-style-type: disc;
                 text-align: left;
             }
             
-            #cover {
+            .cover {
                 height:200px;
                 float: right;
-                margin-left:10px;
+                margin-left: 10px;
+                margin-right: 20px;
             }
             
             #timeline {
@@ -38,7 +39,11 @@
                 margin-left: 10px;
             }
             
-        #mainList {
-            margin-left:10px;
-            margin-right:10px;
-        }
+            #mainList {
+                margin-left:10px;
+                margin-right:10px;
+            }
+            
+            .timelineItem {
+                margin-left: 30px;
+            }
